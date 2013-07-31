@@ -1,5 +1,6 @@
 # .bashrc file
 # By Balaji S. Srinivasan (balajis@stanford.edu)
+# expanded by djb (dbayliss.mail@gmail.com)
 #
 # Concepts:
 #
@@ -135,7 +136,7 @@ if [ "$PS1" ]; then
     # 6) the last command you executed
     #
     # The only minor bug: if you include a literal newline or tab (e.g. with
-    # awk -F"\t"), then that will be included verbatime. It is possible to
+    # awk -F"\t"), then that will be included verbatim. It is possible to
     # define a bash function which escapes the string before writing it; if you
     # have a fix for that which doesn't slow the command down, please submit
     # a patch or pull request.
@@ -191,6 +192,7 @@ alias treeacl='tree -A -C -L 2'
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
 alias eqq='emacs -nw -Q' # No config and no X11
+alias g='gnome-open'
 export EDITOR='emacs -nw'
 export VISUAL='emacs -nw' 
 
