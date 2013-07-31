@@ -14,8 +14,9 @@ ln -s dotfiles/.emacs.d .
 ```
 
 Tested and working on:
-Ubuntu 12.04.2 LTS [EC2 instance]
-Mint 15 [VirtualBox 4.2.12 r84980]
+
+[x] Ubuntu 12.04.2 LTS [EC2 instance]
+[x] Mint 15 [VirtualBox 4.2.12 r84980]
 
 
 See also http://github.com/startup-class/setup to install prerequisite
