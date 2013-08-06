@@ -193,7 +193,6 @@ alias treeacl='tree -A -C -L 2'
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
 alias eqq='emacs -nw -Q' # No config and no X11
-alias g='gnome-open'
 export EDITOR='emacs -nw'
 export VISUAL='emacs -nw' 
 
@@ -221,6 +220,10 @@ if [ -s ~/.nvm/nvm.sh ]; then
     source ~/.nvm/nvm.sh
     nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
+
+# 2.8) Misc useful and/or optional aliases
+alias g='gnome-open'
+alias ssh='ssh -v'
 
 ## ------------------------------
 ## -- 3) User-customized code  --
