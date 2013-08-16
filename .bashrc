@@ -223,7 +223,7 @@ fi
 
 # 2.8) Misc useful and/or optional aliases
 alias g='gnome-open'
-alias ssh='ssh -v'
+# alias ssh='ssh -v'
 
 ## ------------------------------
 ## -- 3) User-customized code  --
