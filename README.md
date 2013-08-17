@@ -1,6 +1,6 @@
 dotfiles.git
 ============
-See [http://github.com/dreggz/ubuntu-setup](http://github.com/dreggz/ubuntu-setup) for headless install of this script and prerequisite
+See [http://github.com/dreggz/env-setup](http://github.com/dreggz/env-setup) for headless install of this script and prerequisite
 programs.
 
 Or, clone and manually configure your `bash` and `emacs` development environment as follows:
