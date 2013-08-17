@@ -222,8 +222,9 @@ if [ -s ~/.nvm/nvm.sh ]; then
 fi
 
 # 2.8) Misc useful and/or optional aliases
-alias g='gnome-open'
 # alias ssh='ssh -v'
+alias g='gnome-open'
+alias findt='find . -maxdepth 1 -iname *~'
 
 ## ------------------------------
 ## -- 3) User-customized code  --
