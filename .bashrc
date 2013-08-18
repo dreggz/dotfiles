@@ -226,6 +226,10 @@ alias g='gnome-open'
 alias findt='find . -maxdepth 1 -iname *~'
 # http://embraceubuntu.com/2006/01/26/tilde-backup-file-cleanup/
 alias cleant='find . -name "*~" -exec rm {} \; -or -name ".*~" -exec rm {} \;'
+# Display AWS public hostname
+# https://forums.aws.amazon.com/thread.jspa?threadID=77788
+alias awshost='echo "`curl -s http://169.254.169.254/latest/meta-data/public-hostname`"'
+
 
 ## ------------------------------
 ## -- 3) User-customized code  --
