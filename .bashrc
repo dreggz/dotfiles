@@ -222,9 +222,10 @@ if [ -s ~/.nvm/nvm.sh ]; then
 fi
 
 # 2.8) Misc useful and/or optional aliases
-# alias ssh='ssh -v'
 alias g='gnome-open'
 alias findt='find . -maxdepth 1 -iname *~'
+# http://embraceubuntu.com/2006/01/26/tilde-backup-file-cleanup/
+alias cleant='find . -name "*~" -exec rm {} \; -or -name ".*~" -exec rm {} \;'
 
 ## ------------------------------
 ## -- 3) User-customized code  --
